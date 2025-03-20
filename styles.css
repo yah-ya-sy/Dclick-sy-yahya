@@ -437,3 +437,39 @@ form button:hover {
     color: #ddd;
     line-height: 1.5;
 }
+
+
+/* Adaptation mobile */
+@media screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav li {
+      margin: 10px 0;
+    }
+  
+    h1 {
+      font-size: 2em;
+      text-align: center;
+    }
+  
+    .content, .accueil {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .accueil img {
+      max-width: 80%;
+      height: auto;
+      margin: 20px auto;
+    }
+  
+    .btn {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  
