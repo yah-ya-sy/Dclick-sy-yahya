@@ -472,4 +472,7 @@ form button:hover {
       margin: 0 auto;
     }
   }
+  html {
+    scroll-behavior: smooth;
+  }
   
